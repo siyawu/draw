@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-02-09T06:40:02.296Z" agent="5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.25 Safari/537.36 Core/1.70.3883.400 QQBrowser/10.8.4559.400" etag="iSi73fmxl8ieeSui201d" version="16.5.3" type="github" pages="4">
+<mxfile host="app.diagrams.net" modified="2022-02-09T06:42:34.968Z" agent="5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.25 Safari/537.36 Core/1.70.3883.400 QQBrowser/10.8.4559.400" etag="OvvSLiObKxR5Hg3voSNz" version="16.5.3" type="github" pages="4">
   <diagram id="r1CYepcf3uNLZu3yzhZW" name="1.0">
     <mxGraphModel dx="1381" dy="742" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -340,7 +340,7 @@
     </mxGraphModel>
   </diagram>
   <diagram name="Task划分" id="MjswLPotG9XkZGWdcn-m">
-    <mxGraphModel dx="1381" dy="742" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1381" dy="771" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" value="流程图" parent="0" />
@@ -423,7 +423,7 @@
         <mxCell id="zZnki2Z_LVnDxpPpl-UI-42" value="Alarm&amp;Action参数" style="text;strokeColor=#B09500;fillColor=#e3c800;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;fontColor=#000000;" parent="zZnki2Z_LVnDxpPpl-UI-36" vertex="1">
           <mxGeometry y="266" width="113" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="zZnki2Z_LVnDxpPpl-UI-55" value="" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;align=center;fontSize=13;" parent="1" vertex="1">
+        <mxCell id="zZnki2Z_LVnDxpPpl-UI-55" value="FaultJudgParam" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;align=center;fontSize=13;" parent="1" vertex="1">
           <mxGeometry x="500" y="760" width="120" height="296" as="geometry">
             <mxRectangle x="580" y="760" width="50" height="26" as="alternateBounds" />
           </mxGeometry>
@@ -464,8 +464,8 @@
         <mxCell id="zZnki2Z_LVnDxpPpl-UI-66" value="limit计算结果" style="text;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;fillColor=#e3c800;fontColor=#000000;strokeColor=#B09500;" parent="zZnki2Z_LVnDxpPpl-UI-55" vertex="1">
           <mxGeometry y="266" width="120" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="zZnki2Z_LVnDxpPpl-UI-69" value="" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;align=center;fontSize=13;" parent="1" vertex="1">
-          <mxGeometry x="707" y="760" width="120" height="356" as="geometry">
+        <mxCell id="zZnki2Z_LVnDxpPpl-UI-69" value="AlarmTriggerParam" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;align=center;fontSize=13;" parent="1" vertex="1">
+          <mxGeometry x="707" y="760" width="143" height="356" as="geometry">
             <mxRectangle x="580" y="760" width="50" height="26" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
@@ -477,40 +477,40 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="zZnki2Z_LVnDxpPpl-UI-71" value="chamber_id" style="text;strokeColor=none;fillColor=none;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;" parent="zZnki2Z_LVnDxpPpl-UI-69" vertex="1">
-          <mxGeometry y="26" width="120" height="30" as="geometry" />
+          <mxGeometry y="26" width="143" height="30" as="geometry" />
         </mxCell>
         <mxCell id="zZnki2Z_LVnDxpPpl-UI-72" value="run_id" style="text;strokeColor=none;fillColor=none;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;" parent="zZnki2Z_LVnDxpPpl-UI-69" vertex="1">
-          <mxGeometry y="56" width="120" height="30" as="geometry" />
+          <mxGeometry y="56" width="143" height="30" as="geometry" />
         </mxCell>
         <mxCell id="7tvItoR1qzl_Ejf8qvzX-26" value="dataItemVal" style="text;strokeColor=none;fillColor=none;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;" parent="zZnki2Z_LVnDxpPpl-UI-69" vertex="1">
-          <mxGeometry y="86" width="120" height="30" as="geometry" />
+          <mxGeometry y="86" width="143" height="30" as="geometry" />
         </mxCell>
         <mxCell id="zZnki2Z_LVnDxpPpl-UI-75" value="模型参数" style="text;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;" parent="zZnki2Z_LVnDxpPpl-UI-69" vertex="1">
-          <mxGeometry y="116" width="120" height="30" as="geometry" />
+          <mxGeometry y="116" width="143" height="30" as="geometry" />
         </mxCell>
         <mxCell id="zZnki2Z_LVnDxpPpl-UI-76" value="Wind参数" style="text;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;" parent="zZnki2Z_LVnDxpPpl-UI-69" vertex="1">
-          <mxGeometry y="146" width="120" height="30" as="geometry" />
+          <mxGeometry y="146" width="143" height="30" as="geometry" />
         </mxCell>
         <mxCell id="zZnki2Z_LVnDxpPpl-UI-77" value="Context Group参数" style="text;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;" parent="zZnki2Z_LVnDxpPpl-UI-69" vertex="1">
-          <mxGeometry y="176" width="120" height="30" as="geometry" />
+          <mxGeometry y="176" width="143" height="30" as="geometry" />
         </mxCell>
         <mxCell id="zZnki2Z_LVnDxpPpl-UI-78" value="Limit参数" style="text;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;" parent="zZnki2Z_LVnDxpPpl-UI-69" vertex="1">
-          <mxGeometry y="206" width="120" height="30" as="geometry" />
+          <mxGeometry y="206" width="143" height="30" as="geometry" />
         </mxCell>
         <mxCell id="zZnki2Z_LVnDxpPpl-UI-79" value="Alarm&amp;Action参数" style="text;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;" parent="zZnki2Z_LVnDxpPpl-UI-69" vertex="1">
-          <mxGeometry y="236" width="120" height="30" as="geometry" />
+          <mxGeometry y="236" width="143" height="30" as="geometry" />
         </mxCell>
         <mxCell id="zZnki2Z_LVnDxpPpl-UI-80" value="模型规则计算值" style="text;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;" parent="zZnki2Z_LVnDxpPpl-UI-69" vertex="1">
-          <mxGeometry y="266" width="120" height="30" as="geometry" />
+          <mxGeometry y="266" width="143" height="30" as="geometry" />
         </mxCell>
         <mxCell id="zZnki2Z_LVnDxpPpl-UI-81" value="limit结果(动态)" style="text;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;" parent="zZnki2Z_LVnDxpPpl-UI-69" vertex="1">
-          <mxGeometry y="296" width="120" height="30" as="geometry" />
+          <mxGeometry y="296" width="143" height="30" as="geometry" />
         </mxCell>
         <mxCell id="zZnki2Z_LVnDxpPpl-UI-82" value="alarmLevel" style="text;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;fillColor=#e3c800;fontColor=#000000;strokeColor=#B09500;" parent="zZnki2Z_LVnDxpPpl-UI-69" vertex="1">
-          <mxGeometry y="326" width="120" height="30" as="geometry" />
+          <mxGeometry y="326" width="143" height="30" as="geometry" />
         </mxCell>
         <mxCell id="zZnki2Z_LVnDxpPpl-UI-83" value="" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;align=center;fontSize=13;" parent="1" vertex="1">
-          <mxGeometry x="892" y="753" width="120" height="386" as="geometry">
+          <mxGeometry x="906" y="760" width="120" height="386" as="geometry">
             <mxRectangle x="580" y="760" width="50" height="26" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
